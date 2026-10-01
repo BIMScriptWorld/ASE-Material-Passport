@@ -1,0 +1,18 @@
+# inputs
+/sample_data
+
+# outputs
+/material_ase_lang_output
+*.tar.gz
+
+# development notes
+plan.md
+
+# vscode settings
+.vscode
+
+# cache
+__pycache__/
+
+# logs
+logs/
