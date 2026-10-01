@@ -1,0 +1,16 @@
+         id class    seg  samples material                  m_meth  m_cf condition  c_meth  c_cf
+      wall0 wall      13    40165 wood_paneling             cv      0.62 worn       rule    0.55
+      wall1 wall       2    37473 wood_paneling             cv      0.62 worn       rule    0.55
+      wall2 wall       3    40597 wood                      cv      0.55 worn       rule    0.55
+      wall3 wall       4    40098 wood_paneling             cv      0.62 worn       rule    0.55
+      wall4 wall       7    38437 painted_plaster           cv      0.60 good       rule    0.60
+      wall5 wall       8    34076 wallpaper                 cv      0.50 worn       rule    0.55
+      wall6 wall       9    40052 stone                     cv      0.50 good       rule    0.60
+      wall7 wall      10    25566 stone                     cv      0.50 worn       rule    0.55
+   door1000 door       3     8065 wood                      cv      0.70 worn       rule    0.55
+   door1001 door     111    14845 wood                      cv      0.70 good       rule    0.60
+   door1002 door      71    16827 wood                      cv      0.70 worn       rule    0.55
+ window2000 window    14    11029 pvc                       cv      0.50 worn       rule    0.55
+ window2001 window    16    40168 wood                      cv      0.60 worn       rule    0.55
+ window2002 window    17     4886 wood                      cv      0.60 damaged    rule    0.50
+ window2003 window    15    40029 wood                      cv      0.60 good       rule    0.60

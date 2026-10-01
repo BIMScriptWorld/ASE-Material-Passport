@@ -1,0 +1,12 @@
+# Core deps (provided by the projectaria_tools ASE conda env, e.g. ase_data):
+#   projectaria_tools   # ASE calibration, readers, interpreter
+numpy
+Pillow
+matplotlib             # only needed for --visualize
+
+# Optional backends:
+#   ollama                 # for vlm provider=ollama (local gemma4 via Ollama)
+#   torch + transformers   # for vlm provider=hf (default google/gemma-4-E4B-it)
+#   torch + transformers   # for --material-methods dms (HF model prithivMLmods/Minc-Materials-23, override via MP_DMS_MODEL)
+#     GPU torch (RTX 50-series example):
+#       pip install --index-url https://download.pytorch.org/whl/cu128 torch torchvision

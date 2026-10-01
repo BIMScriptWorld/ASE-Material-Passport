@@ -1,0 +1,1694 @@
+{
+  "scene_dir": "4",
+  "entities": [
+    {
+      "id": "wall0",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 0,
+      "seg_id": 19,
+      "n_samples": 40070,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "new",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "new",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 40070,
+        "mean_rgb": [
+          104.30841028200649,
+          98.87055153481407,
+          96.00394309957574
+        ],
+        "std_rgb": [
+          34.254310539112936,
+          33.143715896671374,
+          32.72732952371252
+        ],
+        "median_rgb": [
+          105.0,
+          100.0,
+          97.0
+        ],
+        "luminance_mean": 99.81967117544296,
+        "luminance_std": 33.32474419843794,
+        "saturation_mean": 0.08422047688843881,
+        "value_mean": 0.40910602524014344,
+        "hue_mean": 24.30301674818776,
+        "color_variation": 33.37511865316561,
+        "texture_laplacian": 31.88801540936421
+      },
+      "crops": [
+        "material_cache/wall0_f0000106.png",
+        "material_cache/wall0_f0000107.png",
+        "material_cache/wall0_f0000105.png",
+        "material_cache/wall0_f0000221.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall1",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 1,
+      "seg_id": 2,
+      "n_samples": 40179,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "new",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "new",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 40179,
+        "mean_rgb": [
+          108.53266631822594,
+          102.93227805570073,
+          99.56870504492396
+        ],
+        "std_rgb": [
+          39.71828853875179,
+          38.59400430620005,
+          38.2452682343352
+        ],
+        "median_rgb": [
+          108.0,
+          102.0,
+          99.0
+        ],
+        "luminance_mean": 103.88007062893553,
+        "luminance_std": 38.74547816231242,
+        "saturation_mean": 0.09227703749919636,
+        "value_mean": 0.4261413507885546,
+        "hue_mean": 20.778893071989103,
+        "color_variation": 38.852520359762345,
+        "texture_laplacian": 97.89244783979595
+      },
+      "crops": [
+        "material_cache/wall1_f0000083.png",
+        "material_cache/wall1_f0000082.png",
+        "material_cache/wall1_f0000084.png",
+        "material_cache/wall1_f0000081.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall2",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 2,
+      "seg_id": 3,
+      "n_samples": 21342,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 21342,
+        "mean_rgb": [
+          91.09043201199513,
+          84.78614937681567,
+          82.49095679880048
+        ],
+        "std_rgb": [
+          37.560562700877675,
+          35.7876053061749,
+          35.02820914604304
+        ],
+        "median_rgb": [
+          84.0,
+          78.0,
+          76.0
+        ],
+        "luminance_mean": 85.96072696092212,
+        "luminance_std": 36.080257746725856,
+        "saturation_mean": 0.10340157290520553,
+        "value_mean": 0.3577291210739755,
+        "hue_mean": 14.922469428428826,
+        "color_variation": 36.125459051031875,
+        "texture_laplacian": 67.86727551231367
+      },
+      "crops": [
+        "material_cache/wall2_f0000087.png",
+        "material_cache/wall2_f0000088.png",
+        "material_cache/wall2_f0000086.png",
+        "material_cache/wall2_f0000089.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall5",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 3,
+      "seg_id": 4,
+      "n_samples": 18647,
+      "observed": true,
+      "material": "wallpaper",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "tile",
+          "confidence": 0.5
+        },
+        {
+          "method": "vlm",
+          "label": "wallpaper",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "concrete",
+          "confidence": 0.55
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 18647,
+        "mean_rgb": [
+          77.87697752989757,
+          73.62122593446666,
+          70.0537351852845
+        ],
+        "std_rgb": [
+          28.5751156278489,
+          27.67535221688995,
+          26.939713652551497
+        ],
+        "median_rgb": [
+          72.0,
+          68.0,
+          65.0
+        ],
+        "luminance_mean": 74.26842589156432,
+        "luminance_std": 27.798181458794026,
+        "saturation_mean": 0.10696502342717146,
+        "value_mean": 0.30553829297043,
+        "hue_mean": 27.90565602196739,
+        "color_variation": 27.730060499096783,
+        "texture_laplacian": 17.085795903215796
+      },
+      "crops": [
+        "material_cache/wall5_f0000014.png",
+        "material_cache/wall5_f0000015.png",
+        "material_cache/wall5_f0000013.png",
+        "material_cache/wall5_f0000016.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall6",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 4,
+      "seg_id": 5,
+      "n_samples": 40149,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 40149,
+        "mean_rgb": [
+          98.2144013549528,
+          93.63667837306035,
+          88.84569976836285
+        ],
+        "std_rgb": [
+          33.8994519423547,
+          32.525397731728056,
+          31.344832441118342
+        ],
+        "median_rgb": [
+          96.0,
+          91.0,
+          86.0
+        ],
+        "luminance_mean": 94.26399362375153,
+        "luminance_std": 32.71798117105148,
+        "saturation_mean": 0.09756295699645438,
+        "value_mean": 0.38516740826695073,
+        "hue_mean": 31.735784892204208,
+        "color_variation": 32.58989403840037,
+        "texture_laplacian": 50.91341119024631
+      },
+      "crops": [
+        "material_cache/wall6_f0000011.png",
+        "material_cache/wall6_f0000012.png",
+        "material_cache/wall6_f0000020.png",
+        "material_cache/wall6_f0000010.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall3",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 5,
+      "seg_id": 6,
+      "n_samples": 41171,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 0.5
+        },
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "new",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "new",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 41171,
+        "mean_rgb": [
+          102.22000922979767,
+          97.1784022734449,
+          92.96971169026742
+        ],
+        "std_rgb": [
+          36.72081738455016,
+          35.888628445905205,
+          35.472250663841066
+        ],
+        "median_rgb": [
+          100.0,
+          95.0,
+          90.0
+        ],
+        "luminance_mean": 97.94638045226007,
+        "luminance_std": 35.987163457487384,
+        "saturation_mean": 0.09609986735560581,
+        "value_mean": 0.4008751638908216,
+        "hue_mean": 25.912942264170283,
+        "color_variation": 36.02723216476548,
+        "texture_laplacian": 50.221157345091854
+      },
+      "crops": [
+        "material_cache/wall3_f0000154.png",
+        "material_cache/wall3_f0000051.png",
+        "material_cache/wall3_f0000126.png",
+        "material_cache/wall3_f0000127.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall4",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 6,
+      "seg_id": 7,
+      "n_samples": 40347,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "new",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "new",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 40347,
+        "mean_rgb": [
+          97.91169107988202,
+          92.26175428160705,
+          87.41167868738692
+        ],
+        "std_rgb": [
+          37.49863964463393,
+          35.700309145603896,
+          34.36345446367199
+        ],
+        "median_rgb": [
+          98.0,
+          92.0,
+          87.0
+        ],
+        "luminance_mean": 93.11275538701761,
+        "luminance_std": 35.97506581922368,
+        "saturation_mean": 0.11134889771172506,
+        "value_mean": 0.3839738309381799,
+        "hue_mean": 28.3587204898908,
+        "color_variation": 35.85413441796994,
+        "texture_laplacian": 30.20919731476593
+      },
+      "crops": [
+        "material_cache/wall4_f0000210.png",
+        "material_cache/wall4_f0000209.png",
+        "material_cache/wall4_f0000211.png",
+        "material_cache/wall4_f0000212.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall7",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 7,
+      "seg_id": 8,
+      "n_samples": 28534,
+      "observed": true,
+      "material": "wallpaper",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 0.75
+        },
+        {
+          "method": "vlm",
+          "label": "wallpaper",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 28534,
+        "mean_rgb": [
+          108.38319198149576,
+          103.3996285133525,
+          102.34450129669868
+        ],
+        "std_rgb": [
+          37.572215076083424,
+          36.914699399477556,
+          36.93729308804265
+        ],
+        "median_rgb": [
+          111.0,
+          105.0,
+          104.0
+        ],
+        "luminance_mean": 104.38295392163734,
+        "luminance_std": 37.023664297121925,
+        "saturation_mean": 0.06419063390600326,
+        "value_mean": 0.42524336292307624,
+        "hue_mean": 6.465600381747208,
+        "color_variation": 37.14140252120121,
+        "texture_laplacian": 86.35039356698886
+      },
+      "crops": [
+        "material_cache/wall7_f0000128.png",
+        "material_cache/wall7_f0000156.png",
+        "material_cache/wall7_f0000157.png",
+        "material_cache/wall7_f0000171.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall8",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 8,
+      "seg_id": 9,
+      "n_samples": 40643,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "tile",
+          "confidence": 0.75
+        },
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "new",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "new",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 40643,
+        "mean_rgb": [
+          108.8225770735428,
+          103.10060773072854,
+          100.88844327436459
+        ],
+        "std_rgb": [
+          35.75769896869372,
+          35.44566528832457,
+          35.63685506763238
+        ],
+        "median_rgb": [
+          109.0,
+          103.0,
+          100.0
+        ],
+        "luminance_mean": 104.15738013926136,
+        "luminance_std": 35.48370886735761,
+        "saturation_mean": 0.08087303751878074,
+        "value_mean": 0.4267741158909742,
+        "hue_mean": 14.26811328531511,
+        "color_variation": 35.61340644155022,
+        "texture_laplacian": 92.96329035667418
+      },
+      "crops": [
+        "material_cache/wall8_f0000071.png",
+        "material_cache/wall8_f0000073.png",
+        "material_cache/wall8_f0000074.png",
+        "material_cache/wall8_f0000076.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall9",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 9,
+      "seg_id": 10,
+      "n_samples": 40324,
+      "observed": true,
+      "material": "wallpaper",
+      "material_method": "vlm",
+      "material_confidence": 0.9,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "painted_plaster",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "wallpaper",
+          "confidence": 0.9
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.9,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.9
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 40324,
+        "mean_rgb": [
+          116.60618986211685,
+          111.19454915186985,
+          110.43073603809145
+        ],
+        "std_rgb": [
+          35.008835980959105,
+          34.35021653934018,
+          34.484100651488994
+        ],
+        "median_rgb": [
+          120.0,
+          115.0,
+          114.0
+        ],
+        "luminance_mean": 112.28991666005356,
+        "luminance_std": 34.47763181463156,
+        "saturation_mean": 0.059914708160380414,
+        "value_mean": 0.4573461821987004,
+        "hue_mean": 7.287070710542196,
+        "color_variation": 34.61438439059609,
+        "texture_laplacian": 53.90438385292068
+      },
+      "crops": [
+        "material_cache/wall9_f0000077.png",
+        "material_cache/wall9_f0000076.png",
+        "material_cache/wall9_f0000073.png",
+        "material_cache/wall9_f0000075.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall10",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 10,
+      "seg_id": 14,
+      "n_samples": 40224,
+      "observed": true,
+      "material": "painted_plaster",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "vlm",
+          "label": "painted_plaster",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "brick",
+          "confidence": 0.7
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 40224,
+        "mean_rgb": [
+          53.34817521877486,
+          31.019441129673826,
+          22.916268894192523
+        ],
+        "std_rgb": [
+          35.52426801344873,
+          35.78398879864438,
+          32.39905533554609
+        ],
+        "median_rgb": [
+          44.0,
+          17.0,
+          11.0
+        ],
+        "luminance_mean": 35.18148096161495,
+        "luminance_std": 35.142980516626736,
+        "saturation_mean": 0.6674871849388452,
+        "value_mean": 0.20921233250659055,
+        "hue_mean": 16.21203834608275,
+        "color_variation": 34.56910404921306,
+        "texture_laplacian": 124.71524133120242
+      },
+      "crops": [
+        "material_cache/wall10_f0000299.png",
+        "material_cache/wall10_f0000298.png",
+        "material_cache/wall10_f0000260.png",
+        "material_cache/wall10_f0000297.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall11",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 11,
+      "seg_id": 15,
+      "n_samples": 40190,
+      "observed": true,
+      "material": "wood_paneling",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood_paneling",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "wood_paneling",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "wood",
+          "confidence": 0.55
+        }
+      ],
+      "condition": "new",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "new",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 40190,
+        "mean_rgb": [
+          93.9903458571784,
+          64.5000248818114,
+          30.433416272704655
+        ],
+        "std_rgb": [
+          35.31289500628129,
+          27.641502084209748,
+          23.23664369910647
+        ],
+        "median_rgb": [
+          92.0,
+          61.0,
+          24.0
+        ],
+        "luminance_mean": 68.31005797959692,
+        "luminance_std": 28.130460792562364,
+        "saturation_mean": 0.6766756575393899,
+        "value_mean": 0.3685921285657831,
+        "hue_mean": 31.238947943919584,
+        "color_variation": 28.730346929865835,
+        "texture_laplacian": 29.77767226344445
+      },
+      "crops": [
+        "material_cache/wall11_f0000397.png",
+        "material_cache/wall11_f0000396.png",
+        "material_cache/wall11_f0000302.png",
+        "material_cache/wall11_f0000303.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall12",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 12,
+      "seg_id": 16,
+      "n_samples": 40314,
+      "observed": true,
+      "material": "wood_paneling",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood_paneling",
+          "confidence": 0.75
+        },
+        {
+          "method": "vlm",
+          "label": "wood_paneling",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "stone",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "new",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "new",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 40314,
+        "mean_rgb": [
+          102.2474326536687,
+          96.96529741528997,
+          92.70997668303815
+        ],
+        "std_rgb": [
+          36.44673728757549,
+          35.363548378645206,
+          34.87665031788276
+        ],
+        "median_rgb": [
+          100.0,
+          95.0,
+          90.0
+        ],
+        "luminance_mean": 97.7810452101007,
+        "luminance_std": 35.49377069556195,
+        "saturation_mean": 0.09729646807726067,
+        "value_mean": 0.4009904601816914,
+        "hue_mean": 24.719521664356023,
+        "color_variation": 35.562311994701155,
+        "texture_laplacian": 58.62268304850039
+      },
+      "crops": [
+        "material_cache/wall12_f0000456.png",
+        "material_cache/wall12_f0000156.png",
+        "material_cache/wall12_f0000454.png",
+        "material_cache/wall12_f0000455.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "wall13",
+      "class": "wall",
+      "command": "make_wall",
+      "line_index": 13,
+      "seg_id": 17,
+      "n_samples": 40023,
+      "observed": true,
+      "material": "wood_paneling",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood_paneling",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "wood_paneling",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "wood",
+          "confidence": 0.55
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 40023,
+        "mean_rgb": [
+          87.25030607400744,
+          58.549309147240336,
+          23.401244284536393
+        ],
+        "std_rgb": [
+          34.34442786685508,
+          27.378688705226566,
+          23.10536122339053
+        ],
+        "median_rgb": [
+          83.0,
+          54.0,
+          18.0
+        ],
+        "luminance_mean": 62.113450810783796,
+        "luminance_std": 27.72993869008785,
+        "saturation_mean": 0.7405146170060404,
+        "value_mean": 0.3422036250724461,
+        "hue_mean": 32.33213185769108,
+        "color_variation": 28.27615926515739,
+        "texture_laplacian": 49.09114910922645
+      },
+      "crops": [
+        "material_cache/wall13_f0000394.png",
+        "material_cache/wall13_f0000395.png",
+        "material_cache/wall13_f0000241.png",
+        "material_cache/wall13_f0000240.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "door1000",
+      "class": "door",
+      "command": "make_door",
+      "line_index": 14,
+      "seg_id": 6,
+      "n_samples": 7569,
+      "observed": true,
+      "material": "wood",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "wood",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "wood",
+          "confidence": 0.7
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 7569,
+        "mean_rgb": [
+          102.99088386841062,
+          84.69467565068041,
+          69.23239529660457
+        ],
+        "std_rgb": [
+          41.87058049234416,
+          40.07180336200788,
+          40.564633922388126
+        ],
+        "median_rgb": [
+          105.0,
+          83.0,
+          63.0
+        ],
+        "luminance_mean": 87.46807287620558,
+        "luminance_std": 40.103471287398676,
+        "saturation_mean": 0.3601947710494088,
+        "value_mean": 0.40388840963786754,
+        "hue_mean": 25.783630021837382,
+        "color_variation": 40.83567259224672,
+        "texture_laplacian": 145.11310491837816
+      },
+      "crops": [
+        "material_cache/door1000_f0000052.png",
+        "material_cache/door1000_f0000051.png",
+        "material_cache/door1000_f0000053.png",
+        "material_cache/door1000_f0000054.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "door1001",
+      "class": "door",
+      "command": "make_door",
+      "line_index": 15,
+      "seg_id": 120,
+      "n_samples": 22915,
+      "observed": true,
+      "material": "metal",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "metal",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "composite",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 22915,
+        "mean_rgb": [
+          65.64795985162557,
+          59.047654374863626,
+          56.988697359807986
+        ],
+        "std_rgb": [
+          32.246244010203064,
+          30.887141887714808,
+          30.51077300154664
+        ],
+        "median_rgb": [
+          62.0,
+          54.0,
+          52.0
+        ],
+        "luminance_mean": 60.3022226227362,
+        "luminance_std": 31.124832326367763,
+        "saturation_mean": 0.14824983499293826,
+        "value_mean": 0.25757406955799994,
+        "hue_mean": 14.42854383399765,
+        "color_variation": 31.21471963315484,
+        "texture_laplacian": 145.28299140727464
+      },
+      "crops": [
+        "material_cache/door1001_f0000086.png",
+        "material_cache/door1001_f0000087.png",
+        "material_cache/door1001_f0000088.png",
+        "material_cache/door1001_f0000089.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "window2000",
+      "class": "window",
+      "command": "make_window",
+      "line_index": 16,
+      "seg_id": 20,
+      "n_samples": 18061,
+      "observed": true,
+      "material": "aluminum",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "aluminum",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "wood",
+          "confidence": 0.6
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 18061,
+        "mean_rgb": [
+          94.17568240961187,
+          77.75998006754887,
+          68.06699518299098
+        ],
+        "std_rgb": [
+          38.72839066060068,
+          33.36037629392298,
+          34.613909734747224
+        ],
+        "median_rgb": [
+          95.0,
+          77.0,
+          65.0
+        ],
+        "luminance_mean": 80.55012487680638,
+        "luminance_std": 33.79527739508323,
+        "saturation_mean": 0.3781640583984118,
+        "value_mean": 0.3879693109733789,
+        "hue_mean": 19.694016637944344,
+        "color_variation": 35.56755889642363,
+        "texture_laplacian": 124.97517423822296
+      },
+      "crops": [
+        "material_cache/window2000_f0000076.png",
+        "material_cache/window2000_f0000077.png",
+        "material_cache/window2000_f0000078.png",
+        "material_cache/window2000_f0000079.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "window2001",
+      "class": "window",
+      "command": "make_window",
+      "line_index": 17,
+      "seg_id": 21,
+      "n_samples": 9635,
+      "observed": true,
+      "material": "aluminum",
+      "material_method": "vlm",
+      "material_confidence": 0.9,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "aluminum",
+          "confidence": 0.9
+        },
+        {
+          "method": "cv",
+          "label": "pvc",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.9,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.9
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 9635,
+        "mean_rgb": [
+          95.59833938764919,
+          74.70088220031137,
+          72.72548002075766
+        ],
+        "std_rgb": [
+          46.32243168891822,
+          51.809290563943556,
+          48.07948022545452
+        ],
+        "median_rgb": [
+          89.0,
+          57.0,
+          58.0
+        ],
+        "luminance_mean": 79.0010575609756,
+        "luminance_std": 49.639214807737666,
+        "saturation_mean": 0.33552329924845253,
+        "value_mean": 0.38198561209642135,
+        "hue_mean": 10.552892014528766,
+        "color_variation": 48.7370674927721,
+        "texture_laplacian": 186.08792128990927
+      },
+      "crops": [
+        "material_cache/window2001_f0000078.png",
+        "material_cache/window2001_f0000079.png",
+        "material_cache/window2001_f0000080.png",
+        "material_cache/window2001_f0000081.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "window2002",
+      "class": "window",
+      "command": "make_window",
+      "line_index": 18,
+      "seg_id": 22,
+      "n_samples": 7392,
+      "observed": true,
+      "material": "aluminum",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "pvc",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "aluminum",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "pvc",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 7392,
+        "mean_rgb": [
+          65.11295995670996,
+          56.78165584415584,
+          54.87391774891775
+        ],
+        "std_rgb": [
+          36.739784703934504,
+          36.21995618802582,
+          35.9403186666922
+        ],
+        "median_rgb": [
+          57.0,
+          48.0,
+          46.0
+        ],
+        "luminance_mean": 58.41515240800865,
+        "luminance_std": 36.14875719212334,
+        "saturation_mean": 0.20141264649713622,
+        "value_mean": 0.255944423223835,
+        "hue_mean": 9.319766302678602,
+        "color_variation": 36.30001985288417,
+        "texture_laplacian": 131.90053906051511
+      },
+      "crops": [
+        "material_cache/window2002_f0000087.png",
+        "material_cache/window2002_f0000088.png",
+        "material_cache/window2002_f0000086.png",
+        "material_cache/window2002_f0000089.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "window2003",
+      "class": "window",
+      "command": "make_window",
+      "line_index": 19,
+      "seg_id": 23,
+      "n_samples": 16177,
+      "observed": true,
+      "material": "aluminum",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "aluminum",
+          "confidence": 0.667
+        },
+        {
+          "method": "vlm",
+          "label": "aluminum",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "pvc",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "worn",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "worn",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 16177,
+        "mean_rgb": [
+          59.09476417135439,
+          53.8546702107931,
+          50.55480002472646
+        ],
+        "std_rgb": [
+          30.760848745979317,
+          31.77682784690298,
+          31.993599136687827
+        ],
+        "median_rgb": [
+          54.0,
+          48.0,
+          45.0
+        ],
+        "luminance_mean": 54.730463559374414,
+        "luminance_std": 31.514886018615638,
+        "saturation_mean": 0.19632699553052954,
+        "value_mean": 0.23190004690755572,
+        "hue_mean": 25.114640053458515,
+        "color_variation": 31.510425243190042,
+        "texture_laplacian": 113.97508268940443
+      },
+      "crops": [
+        "material_cache/window2003_f0000000.png",
+        "material_cache/window2003_f0000001.png",
+        "material_cache/window2003_f0000002.png",
+        "material_cache/window2003_f0000003.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "window2004",
+      "class": "window",
+      "command": "make_window",
+      "line_index": 20,
+      "seg_id": 24,
+      "n_samples": 31894,
+      "observed": true,
+      "material": "aluminum",
+      "material_method": "vlm",
+      "material_confidence": 0.9,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "wood",
+          "confidence": 0.5
+        },
+        {
+          "method": "vlm",
+          "label": "aluminum",
+          "confidence": 0.9
+        },
+        {
+          "method": "cv",
+          "label": "pvc",
+          "confidence": 0.5
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.9,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.9
+        },
+        {
+          "method": "rule",
+          "label": "worn",
+          "confidence": 0.55
+        }
+      ],
+      "features": {
+        "n_samples": 31894,
+        "mean_rgb": [
+          108.4798708220982,
+          104.88025960995799,
+          103.90502915908948
+        ],
+        "std_rgb": [
+          38.25258904528007,
+          37.74548325258748,
+          37.84265797771213
+        ],
+        "median_rgb": [
+          112.0,
+          108.0,
+          107.0
+        ],
+        "luminance_mean": 105.57512531510628,
+        "luminance_std": 37.83674917454207,
+        "saturation_mean": 0.054934024709060746,
+        "value_mean": 0.4267886147372976,
+        "hue_mean": 9.407596627976545,
+        "color_variation": 37.9469100918599,
+        "texture_laplacian": 193.50897967012725
+      },
+      "crops": [
+        "material_cache/window2004_f0000052.png",
+        "material_cache/window2004_f0000055.png",
+        "material_cache/window2004_f0000061.png",
+        "material_cache/window2004_f0000062.png"
+      ],
+      "frames": []
+    },
+    {
+      "id": "window2005",
+      "class": "window",
+      "command": "make_window",
+      "line_index": 21,
+      "seg_id": 25,
+      "n_samples": 26169,
+      "observed": true,
+      "material": "aluminum",
+      "material_method": "vlm",
+      "material_confidence": 0.95,
+      "material_components": [],
+      "material_candidates": [
+        {
+          "method": "dms",
+          "label": "aluminum",
+          "confidence": 1.0
+        },
+        {
+          "method": "vlm",
+          "label": "aluminum",
+          "confidence": 0.95
+        },
+        {
+          "method": "cv",
+          "label": "wood",
+          "confidence": 0.6
+        }
+      ],
+      "condition": "good",
+      "condition_method": "vlm",
+      "condition_confidence": 0.95,
+      "condition_candidates": [
+        {
+          "method": "vlm",
+          "label": "good",
+          "confidence": 0.95
+        },
+        {
+          "method": "rule",
+          "label": "good",
+          "confidence": 0.6
+        }
+      ],
+      "features": {
+        "n_samples": 26169,
+        "mean_rgb": [
+          56.185906989185675,
+          41.69704612327563,
+          27.371087928464977
+        ],
+        "std_rgb": [
+          31.29233137320296,
+          30.74519478295407,
+          28.70353600013719
+        ],
+        "median_rgb": [
+          49.0,
+          32.0,
+          17.0
+        ],
+        "luminance_mean": 43.74304376170278,
+        "luminance_std": 30.288368098609137,
+        "saturation_mean": 0.5751396465244496,
+        "value_mean": 0.22074105044211118,
+        "hue_mean": 31.19169597156298,
+        "color_variation": 30.24702071876474,
+        "texture_laplacian": 218.20428054889098
+      },
+      "crops": [
+        "material_cache/window2005_f0000239.png",
+        "material_cache/window2005_f0000240.png",
+        "material_cache/window2005_f0000241.png",
+        "material_cache/window2005_f0000242.png"
+      ],
+      "frames": []
+    }
+  ]
+}

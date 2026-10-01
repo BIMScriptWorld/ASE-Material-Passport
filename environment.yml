@@ -1,0 +1,24 @@
+# Conda environment for the material-passport augmentation pipeline.
+#
+# Create the base environment (CPU core + ASE tooling) with:
+#     conda env create -f environment.yml
+#     conda activate material_passport
+#
+# The optional ML backends (dms, vlm) need extra packages that are NOT
+# installed here because they depend on your hardware / setup. See README.md:
+#   * dms backend -> torch (GPU build matching your CUDA) + transformers
+#   * vlm backend -> either torch + transformers (HF Gemma) or ollama
+#
+# Only the offline 'cv' material backend and the 'rule' condition backend work
+# out of the box with this environment.
+name: material_passport
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - Pillow
+      - matplotlib          # only needed for --visualize
+      - projectaria-tools   # ASE calibration, readers, interpreter

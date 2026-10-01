@@ -1,0 +1,5 @@
+make_wall, id=0, a_x=-2.3660273402929306, a_y=-1.992631196975708, a_z=0.0, b_x=3.0827765613794327, b_y=-1.992631196975708, b_z=0.0, height=2.8021252155303955, thickness=0.0, material_type=wood_paneling, condition=good
+make_wall, id=1, a_x=3.0827765613794327, a_y=-1.992631196975708, a_z=0.0, b_x=3.0827765613794327, b_y=-8.153259038925171, b_z=0.0, height=2.8021252155303955, thickness=0.0, material_type=painted_plaster, condition=new
+make_wall, id=2, a_x=3.0827765613794327, a_y=-8.153259038925171, a_z=0.0, b_x=-2.3660273402929306, b_y=-8.153259038925171, b_z=0.0, height=2.8021252155303955, thickness=0.0, material_type=wood_paneling, condition=good
+make_wall, id=3, a_x=-2.3660273402929306, a_y=-8.153259038925171, a_z=0.0, b_x=-2.3660273402929306, b_y=-1.992631196975708, b_z=0.0, height=2.8021252155303955, thickness=0.0, material_type=painted_plaster, condition=good
+make_door, id=1000, wall0_id=0, wall1_id=-1, position_x=1.8071728944778442, position_y=-1.992631196975708, position_z=0.9875229047233552, width=1.6066248416900635, height=1.9750458094467105, material_type=metal, condition=good
