@@ -16,6 +16,7 @@ This pipeline is part of the **BIMScript** project
 [code](https://github.com/BIMScriptWorld/BIMScript)), where the material
 passport supervises BIMScript's per-element `material` and `condition` tokens.
 
+![alt text](docs/pipeline.png)
 ---
 
 ## Dataset: ASE with Material Passport
